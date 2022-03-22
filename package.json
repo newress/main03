@@ -11,9 +11,24 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/runtime": "^7.17.8",
+    "autoprefixer": "^10.4.4",
+    "babel": "^6.23.0",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-static-files-copy": "^2.6.0",
+    "postcss": "^8.4.12",
+    "sass": "^1.49.9"
   },
   "dependencies": {
     "jquery": "^3.6.0"
-  }
+  },
+  "staticFiles": {
+    "staticPath": "static"
+  },
+  "browserslist": [
+    "> 10%",
+    "last 4 versions"
+  ]
 }
